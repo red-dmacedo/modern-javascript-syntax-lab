@@ -60,6 +60,7 @@ const morePizzaToppings = ['Cheese', 'Sauce'];
 
 // Your code here:
 const uncontroversialPizzaToppings = [...morePizzaToppings];
+console.log(uncontroversialPizzaToppings);
 
 // ! Exercise 5:
 // a. Duplicate the provided `anotherCar` object and spread its values into a 
@@ -117,6 +118,7 @@ console.log('userProfile:', userProfile);
 function logSentence(noun = 'cat', adjective = 'orange') {
   console.log(`The ${noun} is ${adjective}`);
 };
+logSentence('rat', 'icky');
 
 // ! Exercise 9:
 // a. Convert the following `if...else` statement into a ternary:
