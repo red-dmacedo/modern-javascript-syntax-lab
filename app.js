@@ -114,7 +114,7 @@ console.log('userProfile:', userProfile);
 //    arguments.
 //
 // Your code here:
-function abc(noun='cat', adjective='orange'){
+function logSentence(noun='cat', adjective='orange'){
   console.log(`The ${noun} is ${adjective}`);
 };
 
